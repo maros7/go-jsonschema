@@ -2,6 +2,8 @@ module github.com/atombender/go-jsonschema
 
 go 1.21
 
+replace github.com/atombender/go-jsonschema => github.com/maros7/go-jsonschema v0.0.0-20231010134448-aa8e989960f5
+
 require (
 	github.com/goccy/go-yaml v1.11.2
 	github.com/mitchellh/go-wordwrap v1.0.1
